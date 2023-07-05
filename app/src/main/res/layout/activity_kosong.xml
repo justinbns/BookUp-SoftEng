@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kosong">
+
+    <View
+        android:id="@+id/view15"
+        android:layout_width="412dp"
+        android:layout_height="3dp"
+        android:background="#000000"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="-17dp"
+        tools:layout_editor_absoluteY="60dp"
+        tools:ignore="MissingConstraints"/>
+
+    <View
+        android:id="@+id/view14"
+        android:layout_width="412dp"
+        android:layout_height="3dp"
+        android:background="#000000"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="138dp"
+        tools:ignore="MissingConstraints"/>
+
+    <View
+        android:id="@+id/view12"
+        android:layout_width="412dp"
+        android:layout_height="3dp"
+        android:background="#000000"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="138dp"
+        tools:ignore="MissingConstraints"/>
+
+    <View
+        android:id="@+id/view13"
+        android:layout_width="412dp"
+        android:layout_height="3dp"
+        android:background="#000000"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="63dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="425dp"
+        android:layout_height="71dp"
+        android:background="#FFAA46"
+        android:contentDescription="@string/desc"
+        android:gravity="center"
+        android:text="TRANSACTION HISTORY"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="205dp"
+        android:layout_height="72dp"
+        android:background="#FFAA46"
+        android:contentDescription="@string/desc"
+        android:gravity="center"
+        android:text="IN PROGRESS"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="66dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="208dp"
+        android:layout_height="71dp"
+        android:background="#FFAA46"
+        android:contentDescription="@string/desc"
+        android:gravity="center"
+        android:text="COMPLETE"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="66dp"
+        tools:ignore="MissingConstraints"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:menu="@menu/bottom_nav_menu"/>
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="203dp"
+        android:layout_height="292dp"
+        app:srcCompat="@drawable/database"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="293dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="There's nothing here yet..."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="558dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You Have Completed everything !"
+        android:textColor="#939393"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="596dp"
+        tools:ignore="MissingConstraints"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

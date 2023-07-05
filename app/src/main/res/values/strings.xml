@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">book_up</string>
+    <string name="desc">images</string>
+    <string name="gam">tek</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_opening">opening</string>
+    <string name="title_activity_homepage">homepage</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
